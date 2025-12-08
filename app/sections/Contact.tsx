@@ -83,7 +83,7 @@ export default function Contact() {
             </div>
             <div className="bg-white shadow-md p-6 rounded-xl">
               <h3 className="text-xl font-semibold mb-2 text-navy">Email</h3>
-              <p>contact@eventora.com</p>
+              <p>contact@gleamstoneevents.com</p>
             </div>
             <div className="bg-white shadow-md p-6 rounded-xl">
               <h3 className="text-xl font-semibold mb-2 text-navy">Adress</h3>

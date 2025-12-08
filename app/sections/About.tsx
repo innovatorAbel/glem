@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
 
-const About = () => {
+export default function About() {
   return (
-    <section className="py-20 bg-gray-50">
+    // id added for navbar scrolling + scroll offset for fixed header
+    <section id="about" className="py-20 bg-gray-50 scroll-mt-20">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
         {/* Image */}
         <div className="md:w-1/2">
@@ -12,8 +13,7 @@ const About = () => {
             alt="About Gleamstone"
             width={600}
             height={400}
-            className="rounded-2xl shadow-lg"
-            style={{ objectFit: "cover" }}
+            className="rounded-2xl shadow-lg object-cover"
           />
         </div>
 
@@ -24,9 +24,9 @@ const About = () => {
           </h2>
           <p className="text-gray-700 mb-6">
             Gleamstone is a premium event organizing company dedicated to
-            creating unforgettable experiences. From corporate
-            events to concerts and exhibitions, we handle every detail with
-            creativity, professionalism, and passion.
+            creating unforgettable experiences. From corporate events to
+            concerts and exhibitions, we handle every detail with creativity,
+            professionalism, and passion.
           </p>
           <p className="text-gray-700">
             Our mission is to turn every moment into a cherished memory. We
@@ -37,6 +37,4 @@ const About = () => {
       </div>
     </section>
   );
-};
-
-export default About;
+}

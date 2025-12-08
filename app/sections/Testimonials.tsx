@@ -3,19 +3,19 @@
 export default function Testimonials() {
   const testimonials = [
     {
-      name: "Kerod 2023",
+      name: "Kerod 2025",
       avatar: "/avatar1.png",
       quote:
-        "Gleamstone made our wedding unforgettable! The attention to detail was amazing.",
+        "Our street run was an incredible experience thanks to Gleamstone. Every detail was handled perfectly!",
     },
     {
-      name: "Kerod 2024",
-      avatar: "/avatar2.png",
+      // name: "Kerod 2024",
+      avatar: "/avatar2.jpg",
       quote:
         "Professional, creative, and reliable. Our corporate event was flawless.",
     },
     {
-      name: "Kerod 2025",
+      name: "Kerod 2022-2024",
       avatar: "/avatar3.png",
       quote:
         "From start to finish, everything was perfect. Highly recommended!",

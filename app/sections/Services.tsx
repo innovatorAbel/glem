@@ -5,7 +5,7 @@ export default function Services() {
     {
       title: "Event Planning",
       description:
-        "Full end-to-end planning for weddings, corporate events, and celebrations.",
+        "Full end-to-end planning for athlethic events, corporate events, and celebrations",
     },
     {
       title: "Venue Decoration",
