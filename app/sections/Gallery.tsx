@@ -10,7 +10,7 @@ export default function Gallery() {
     { src: "/gallery3.jpg", title: "kerod" },
     { src: "/gallery4.jpg", title: "kerod" },
     { src: "/gallery5.jpg", title: "kerod" },
-    { src: "/gallery6.jpg", title: "kerod 2024 wolkite" },
+    { src: "/galarey8.jpg", title: "kerod 2024 wolkite" },
   ];
 
   return (
