@@ -1,8 +1,8 @@
-import Navbar from "./sections/Navbar";
+import Navbar from "./sections/navbar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Services from "./sections/Services";
-import Gallery from "./sections/Gallery";
+// import Gallery from "./sections/Gallery";
 import Testimonials from "./sections/Testimonials";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
@@ -14,7 +14,7 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
-      <Gallery />
+      {/* <Gallery /> */}
       <Testimonials />
       <Contact />
       <Footer />

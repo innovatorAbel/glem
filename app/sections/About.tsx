@@ -9,7 +9,7 @@ export default function About() {
         {/* Image */}
         <div className="md:w-1/2">
           <Image
-            src="/kerod2024.jpg"
+            src="/about.png"
             alt="About Gleamstone"
             width={600}
             height={400}
