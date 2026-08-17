@@ -8,7 +8,7 @@ import { HiMenu, HiX } from "react-icons/hi";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const navLinks = ["Home", "About", "Services", "Gallery", "Contact"];
+  const navLinks = ["Home", "About", "Events", "Services", "Testimonials", "Contact"];
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
